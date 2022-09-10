@@ -41,7 +41,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/v2ray/priv.
 apt-get update -y 
 apt-get upgrade -y
 apt-get install curl -y
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/94KONG/x-ui/master/install.sh)
 x-ui start
 
 #info
