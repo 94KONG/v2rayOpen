@@ -1,0 +1,2 @@
+# use to run commands with env
+env - $(cat .env) $@
